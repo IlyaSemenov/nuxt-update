@@ -8,7 +8,7 @@ When you publish updates, users won't get the new version until they hard refres
 
 ### Solution
 
-`nuxt-update` allows you to define app version, and then periodically checks on the client if the version has changed on the server. When an update is detected, an event is emitted which you can handle with some kind of user notifcation (or simply refresh the page automatically).
+`nuxt-update` publishes the current app version at a JSON endpoint, and then periodically checks on the client if the version has changed on the server. When an update is detected, an event is emitted which you can handle with some kind of user notifcation (or simply refresh the page automatically).
 
 To save bandwidth and prevent unexpected network activity, updates are only checked during client-side navigation, with a customizeable minimum interval.
 
