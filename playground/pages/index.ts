@@ -1,0 +1,3 @@
+definePageMeta({
+  redirect: "/Home",
+})
