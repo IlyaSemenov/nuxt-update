@@ -15,8 +15,7 @@
   "main": "./dist/module.cjs",
   "types": "./dist/types.d.ts",
   "files": [
-    "dist",
-    "templates"
+    "dist"
   ],
   "scripts": {
     "prepare": "husky install",
@@ -40,7 +39,6 @@
     "@nuxt/schema": "^3.5.0",
     "@nuxt/test-utils": "^3.5.0",
     "@types/node": "^18",
-    "changelogen": "^0.5.3",
     "eslint": "^8.40.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
